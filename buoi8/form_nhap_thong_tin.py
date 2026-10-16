@@ -3,7 +3,7 @@ import tkinter as tk
 def xu_ly_submit():
     ho_ten = entry_ho_ten.get()
     tuoi = entry_tuoi.get()
-    email = entry.email.get()
+    email = entry_email.get()
     nhan_ket_qua.config(
         text=f"Da nhan: {ho_ten} - {tuoi} tuoi - {email}"
     )
